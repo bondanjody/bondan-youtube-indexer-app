@@ -11,4 +11,12 @@ class Home extends BaseController
         ];
         return view('y-index/index', $data);
     }
+
+    public function tambah()
+    {
+        $data = [
+            'title' => 'BYI : Tambah Data'
+        ];
+        return view('y-index/tambah', $data);
+    }
 }

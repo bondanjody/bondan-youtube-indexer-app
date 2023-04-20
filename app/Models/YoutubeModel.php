@@ -10,7 +10,7 @@ class YoutubeModel extends Model
 
     protected $useTimestamps = true;
 
-    protected $allowedFields = ['judul', 'nama_channel', 'category', 'slug', 'gambar'];
+    protected $allowedFields = ['judul', 'nama_channel', 'url', 'category', 'slug', 'gambar'];
 
     public function getData($slug = false)
     {

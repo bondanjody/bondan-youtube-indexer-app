@@ -23,6 +23,10 @@ class Youtubeindex extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 255,
             ],
+            'url' => [
+                'type' => 'VARCHAR',
+                'constraint' => 255,
+            ],
             'category' => [
                 'type' => 'VARCHAR',
                 'constraint' => 255,
